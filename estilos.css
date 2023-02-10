@@ -1,0 +1,78 @@
+.container img{
+    height: 100px;
+    width: 257px;
+    padding: 2px 85px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 190px;
+
+    position: absolute;
+    width: 2000px;
+    height: 54px;
+    left: 150px;
+    top: 33px;
+}
+
+nav a{
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+
+}
+
+nav button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 36px;
+    gap: 16px;
+
+    width: 167px;
+    height: 51px;
+
+    background: red;
+    border-radius: 36px;
+    border: 0;
+}
+
+nav p{
+    width: 115px;
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #F2F3F5;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+section{
+    background-image: url(img/fondo.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    
+}
+    
+
+
+
+
+
+
