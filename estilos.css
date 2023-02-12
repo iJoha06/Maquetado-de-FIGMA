@@ -1,80 +1,67 @@
-.container img{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+    padding: 5px 6%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
     height: 100px;
-    width: 257px;
-    padding: 2px 85px;
+    width: auto;
+    transition: all 0.3s;
 }
 
-header nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 190px;
-
-    position: absolute;
-    width: 100%;
-    height: 54px;
-    left: 150px;
-    top: 33px;
+.header .logo img:hover{
+    transform: scale(1.2);
 }
 
-nav a{
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
     color: black;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     text-decoration: none;
-
 }
 
-nav button{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 36px;
-    gap: 16px;
-
-    width: 167px;
-    height: 51px;
-
-    background: red;
-    border-radius: 36px;
-    border: 0;
+.header .nav-links li a:hover{
+    color: red;
 }
 
-nav p{
-    width: 115px;
-    height: 22px;
-
-    font-family: 'Inter';
-    font-style: normal;
+.header .btn button{
     font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-
-    color: #F2F3F5;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    color: white;
+    padding: 9px 25px;
+    background: red;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
 }
 
-section{
-    background-image: url(img/fondo.png);
-    position: absolute;
-    background-repeat: no-repeat;
-    
-
+.header .btn button:hover{
+     transform: scale(1.1);
 }
-
-    
-
-
-
-
-
-
