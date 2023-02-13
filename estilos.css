@@ -84,6 +84,27 @@
     background-position: center center;
 }
 
-.hero h1{
+h1{
     color: white;
+    width: 580px;
+    height: 190px;
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+}
+
+.btnn button{
+    font-weight: 500;
+    color: white;
+    padding: 9px 25px;
+    background: red;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    width: 167px;
+}
+
+.btnn button:hover{
+    transform: scale(1.1);
 }
