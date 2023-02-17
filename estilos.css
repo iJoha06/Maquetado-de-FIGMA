@@ -84,7 +84,7 @@
     background-position: center center;
 }
 
-h1{
+.hero h1{
     color: white;
     width: 580px;
     height: 190px;
@@ -107,4 +107,51 @@ h1{
 
 .btnn button:hover{
     transform: scale(1.1);
+}
+
+.productos h1{
+    color: black;
+    font-size: 40px;
+}
+
+.productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 42px;
+    padding: 42px;
+}
+
+.cajaazul{
+    color: white;
+    background-color: #131D3B;
+    text-align: center;
+    
+}
+
+.cajagris{
+    color: #131D3B;
+    background-color: #E9ECEF;;
+    text-align: center;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 10rem;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.caja img{
+    height: 2.5rem;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
 }
