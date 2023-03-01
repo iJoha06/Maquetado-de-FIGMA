@@ -156,6 +156,8 @@
     flex-direction: row;
 }
 
+/*Promo*/
+
 .nav-promos{
     display: flex;
     gap: 50px;
