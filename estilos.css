@@ -132,7 +132,7 @@
 
 .cajagris{
     color: #131D3B;
-    background-color: #E9ECEF;;
+    background-color: #E9ECEF;
     text-align: center;
 }
 
@@ -161,11 +161,25 @@
     gap: 50px;
     text-decoration: none;
     list-style: none;
+    margin: 30px;
+}
+
+.promociones .nav-promos li a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+.promociones .nav-promos li a:hover{
+    color: black;
 }
 
 .nav-promos li{
     display: inline-block;
     padding: 15 35px;
+}
+
+.promociones .nav-promos li:hover{
+    transform: scale(1.1);
 }
 
 .promociones h1{
@@ -190,5 +204,17 @@
     align-items: center;
 }
 
+.jefe{
+    display: flex;
+    gap: 35px;
+}
 
+.boxgris{
+    background-color: #E9ECEF;
+    text-align: center;
+}
+
+.promociones .jefe{
+    margin: 50px;
+}
 
