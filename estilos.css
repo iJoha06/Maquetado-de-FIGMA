@@ -158,9 +158,36 @@
 
 .nav-promos{
     display: flex;
-    gap: 24px;
+    gap: 50px;
     text-decoration: none;
-    
+    list-style: none;
+}
+
+.nav-promos li{
+    display: inline-block;
+    padding: 15 35px;
+}
+
+.promociones h1{
+    width: 430px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 42px;
+    color: #4B4B4B;
+}
+
+.tit .vertodos{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 42px;
+    text-decoration: none;
+}
+
+.tit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
